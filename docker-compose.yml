@@ -8,7 +8,13 @@ services:
     - "1313:1313"
     volumes:
     - /home/deploy/blog:/src
+    networks:
+      - nginx-proxy-manager_default
     command:
     - server
     - --bind=0.0.0.0
     - --buildDrafts
+
+networks:
+  nginx-proxy-manager_default:
+    external: true
