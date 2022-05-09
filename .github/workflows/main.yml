@@ -19,3 +19,5 @@ jobs:
             git pull
             sudo rm -r public/
             sudo hugo --minify
+            cd ${{ secrets.NGINX_PATH }}
+            docker-compose up -d
