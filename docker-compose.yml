@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  hugo:
+    container_name: hugo
+    image: peaceiris/hugo:v0.98.0
+    ports:
+    - "1313:1313"
+    volumes:
+    - /home/deploy/blog:/src
+    command:
+    - server
+    - --bind=0.0.0.0
+    - --buildDrafts
