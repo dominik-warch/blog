@@ -17,5 +17,4 @@ jobs:
           script: |
             cd ${{ secrets.PROJECT_PATH }}
             git pull
-            rm -r public/
             hugo --minify
