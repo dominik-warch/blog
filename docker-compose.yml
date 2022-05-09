@@ -17,6 +17,7 @@ services:
     - --baseURL=dvisca.de
     - --minify
     - --disableLiveReload
+    - --appendPort=false
 
 networks:
   nginx-proxy-manager_default:
