@@ -20,4 +20,5 @@ jobs:
             sudo rm -r public/
             sudo hugo --minify
             cd ${{ secrets.NGINX_PATH }}
+            docker-compose down
             docker-compose up -d
