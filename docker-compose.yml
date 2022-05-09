@@ -14,6 +14,9 @@ services:
     - server
     - --bind=0.0.0.0
     - --buildDrafts
+    - --baseURL=dvisca.de
+    - --minify
+    - --disableLiveReload
 
 networks:
   nginx-proxy-manager_default:
