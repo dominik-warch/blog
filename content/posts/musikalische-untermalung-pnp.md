@@ -22,6 +22,8 @@ Unsere technischen Anforderungen waren eigentlich gering. Einer unserer Mitspiel
 
 Seit Jahren verwenden wir Michas Jingle-Player[^5], um atmosphärische Begleitmusik oder einzelne Soundeffekte passgenau abzuspielen. Das Tool bietet einem 30 Buttons an, die mit beliebigen Audiodateien bestückt werden und dann per Maus oder Shortcut (parallel) abgespielt werden können. Außerdem gibt es die Möglichkeit, für jeden Button Loop zu aktivieren. Eine "neue" Lösung sollte nicht weniger können als das.
 
+![Screenshot von Michas Jingle-Player](/img/2022-05-08_jingle_player.png "Michas Jingle-Player")
+
 ### 1. Versuch: Geteilter Bildschirm
 
 Die naheliegendste Lösung war, Michas Jingle-Player weiterhin zu verwenden. Der Spielleiter teilt seinen Bildschirm, wobei dann eben auch der Ton des Jinge-Players geteilt wird. Leider bringt diese Variante zwei Probleme mit sich:
@@ -45,7 +47,7 @@ Andere Lösungen haben uns damals noch weniger zugesagt, ggf. gibt es aber mittl
 
 Da ich technisch nicht unbedingt unbegabt bin[^6], war eine hausgemachte Lösung schnell im Gespräch. Ein eigener Audiostream á la YouTube Live oder Twitch kam leider nicht in Frage, da ich das Ganze ja nicht öffentlich machen wollte, schon allein aus Copyright-Gründen der verwendeten Musik. Nach kurzer Recherche stieß ich auf die Möglichkeit, den [Nginx-Webserver](https://nginx.org/en/) mit einem [passenden RTMP-Modul](https://nginx-rtmp.blogspot.com/) auszustatten. Damit ist es möglich, mein lokales Audio (z.B. Michas Jingle-Player) mit einer Broadcasting Software wie [OBS](https://obsproject.com/) an den Webserver zu senden, der dann wiederum einen passenden Audiostream daraus macht, der als Link dann z.B. in einem Mediaplayer wie VLC eingebunden werden kann. Im Endeffekt stellt dies die bessere Version von Variante 1 dar: Der unnötige geteilte Bildschirm fällt weg und die Audiolautstärke kann unabhängig von der Lautstärke des Spielers angepasst werden.
 
-![Alt text](/img/2022-05-08_workflow_nginx.png "a title")
+![Workflow OBS zu VLC](/img/2022-05-08_workflow_nginx.png "Workflow OBS zu VLC")
 
 Das klang perfekt und war auch für ein paar Spielabende im Einsatz. Leider gibt es mit dieser Lösung eine nicht zu unterschätzende Verzögerung von stellenweise bis zu 30 Sekunden. Ob das an meiner Konfiguration lag, möchte ich nicht ausschließen, klar ist aber, dass eine Verzögerung in irgendeiner Form zu erwarten ist. Da wir immer mal wieder mit zeitlich abgestimmten Soundeffekten und Musikstücken arbeiten, war die Verzögerung nicht optimal und hat in einigen Szenen den für uns gewohnten Effekt kaputt gemacht.
 
