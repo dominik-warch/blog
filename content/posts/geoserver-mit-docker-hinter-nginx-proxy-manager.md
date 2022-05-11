@@ -1,7 +1,7 @@
 ---
 title: "Geoserver mit Docker hinter Nginx-Proxy-Manager"
 date: 2022-05-11T16:01:46+02:00
-draft: true
+draft: false
 
 tags: ["GIS", "GeoServer", "Docker", "Nginx Proxy Manager"]
 author: "Dominik Visca"
