@@ -1,5 +1,5 @@
 ---
-title: "Geoserver mit Docker hinter Nginx-Proxy-Manager"
+title: "GeoServer mit Docker hinter Nginx-Proxy-Manager"
 date: 2022-05-11T16:01:46+02:00
 draft: false
 
@@ -7,7 +7,7 @@ tags: ["GIS", "GeoServer", "Docker", "Nginx Proxy Manager"]
 author: "Dominik Visca"
 ---
 
-Docker und der [Nginx Proxy Manager](https://nginxproxymanager.com/) sind für mich ein _Match made in Heaven_. Die Möglichkeit, per Docker nahezu beliebige Dienste auf meine Server zu packen das Grundsystem nicht mit unübersichtlichen und schwer zu dokumentierenden Konfigurationen zu verändern, ist an sich schon großartig. Diese ganzen Dienste aber mit einer aufgeräumten und gut funktionierenden Weboberfläche nach außen verfügbar zu machen erleichtert einiges an Arbeit.
+Docker und der [Nginx Proxy Manager](https://nginxproxymanager.com/) sind für mich ein _Match made in Heaven_. Die Möglichkeit, per Docker nahezu beliebige Dienste auf meine Server zu packen und dabei das Grundsystem nicht mit unübersichtlichen und schwer zu dokumentierenden Konfigurationen zu verändern, ist an sich schon großartig. Diese ganzen Dienste aber mit einer aufgeräumten und gut funktionierenden Weboberfläche nach außen verfügbar zu machen, erleichtert einiges an Arbeit.
 
 Für unser [Forschungsprojekt](https://i3mainz.hs-mainz.de/projekte/rafviniert/) gibt es Bedarf, räumliche Daten zu visualisieren. Um das dienstebasiert zu erreichen, gibt es u.a. Projekte wie den [GeoServer](https://geoserver.org/), um die Daten standardisiert als WMS- oder WFS-Dienst zu veröffentlichen. Bisher war ich mehr der Freund des QGIS-Servers, für Endanwender scheint mit der GeoServer aber komfortabler zu sein, also sollte es dieser werden.
 
