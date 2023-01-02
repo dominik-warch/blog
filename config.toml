@@ -1,10 +1,16 @@
 baseURL = "https://www.dvisca.de"
-languageCode = "de"
 title = "dominik visca"
 theme = "cactus"
 copyright = "Dominik Visca" # cactus will use title if copyright is not set
-#disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-# googleAnalytics = "UA-1234-5"
+
+# Language Settings
+defaultContentLanguage = "de"
+[languages]
+  [languages.de]
+    weight = 1
+  [languages.en]
+    weight = 2
+  
 
 
 # summaryLength = 2
