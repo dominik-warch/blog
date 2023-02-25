@@ -1,6 +1,6 @@
 ---
 title: "Über mich"
-date: 2022-05-08T13:18:59+02:00
+date: 2023-02-25T13:18:59+02:00
 draft: false
 author: "Dominik Visca"
 
@@ -24,7 +24,7 @@ autoCollapseToc: true
 
 ## Publikationen
 
-- **Visca, D., Hoppe, M. & Neis, P. (2023):** *Verfahren zur Ermittlung der Besucherfrequenz mittels (mobiler) Low-cost Sensorik.* Proceedings 22. Internationale Geodätische Woche Obergurgl 2023. 12. - 13. Februar 2023. Obergurgl, Österreich.
+- **Visca, D., Hoppe, M. & Neis, P. (2023):** *Verfahren zur Ermittlung der Besucherfrequenz mittels (mobiler) Low-Cost-Sensorik.* Proceedings 22. Internationale Geodätische Woche Obergurgl 2023. 12. - 13. Februar 2023. Obergurgl, Österreich.
 - **Horbach, F., Visca, D., Pagel, S. & Neis. P. (2022):** *Methods for Georeferencing Linear and Non-Linear Media Content.* GI_Forum. Bd. 2022. H. 2. 2022 S. 66 - 72
 - **Visca, D., Hoppe, M. & Neis, P. (2022):** *Ableitung demographischer Indikatoren aus offenen Datenquellen.* Flächennutzungsmonitoring XIV - Beiträge zu Flächenmanagement, Daten, Methoden und Analysen. Bd. 2022. H. 1. Berlin: Rhombos-Verlag 2022 S. 251 - 258
 - **Visca, D., Hoppe, M., Kaminski, K. & Neis, P. (2022):** *Zur Identifikation und Visualisierung von Einfamilienhausgebieten der 1950er bis 1970er Jahre für eine nachhaltige Raumplanung.* Schrenk, Manfred; Popovich, Vasily V.; Zeile, Peter; Elisei, Pietro; Beyer, Clemens; Ryser, Judith (Hrsg). Mobility, Knowledge and Innovation Hubs in Urban and Regional Development. Wien: Competence Center of Urban and Regional Planning (CORP) 2022 S. 925 - 934 (Proceedings of REAL CORP 2022, 27th International Conference on Urban Development, Regional Planning and Information Society)
@@ -43,8 +43,8 @@ autoCollapseToc: true
 ## Lehrtätigkeiten
 
 - Mitbetreuung von Modulen:
-  - 2021/2022: GeoGovernment 1
-  - 2022: GeoGovernment 2
+  - WiSe 2021/2022 & WiSe 2022/2023: GeoGovernment 1
+  - SoSe 2022: GeoGovernment 2
 - Mitbetreuung von Projektarbeiten:
   - 2021/2022: "Anreicherung polizeilicher Vorgangsdaten mit sozioökonomischen Daten aus internen und externen Quellen" - Betreuer: Prof. Dr. Pascal Neis
 - Mitbetreuung von Abschlussarbeiten:
