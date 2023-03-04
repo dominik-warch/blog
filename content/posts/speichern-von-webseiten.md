@@ -44,4 +44,4 @@ Das Ergebnis ist dann ein Ordner (hier ein Auszug des Unterordners des eigentlic
 
 ![Screenshot des wget-Downloadergebnisses](/img/wget_ergebnis.jpg)
 
-Das ist ein absolut ausreichendes Ergebnis und spricht für die Qualität und den Nutzen der Standard-GNU-Werkzeuge. Mein erster Gedanke bei der Problemlösung ist häufig: Gibt es irgendeine Software, am besten selbstgehosted, die das Problem löst? Manchmal reicht aber auch eine simpler Terminal-Befehl.
+Das ist ein absolut ausreichendes Ergebnis und spricht für die Qualität und den Nutzen der Standard-GNU-Werkzeuge. Mein erster Gedanke bei der Problemlösung ist häufig: Gibt es irgendeine Software, am besten selbstgehosted, die das Problem löst? Manchmal reicht aber auch ein simpler Terminal-Befehl.
