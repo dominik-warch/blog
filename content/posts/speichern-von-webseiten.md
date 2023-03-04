@@ -1,5 +1,5 @@
 ---
-title: "Über das Speichern von Webseiten, Oder: Warum die einfachste Lösung manchmal die beste ist"
+title: "Über das Speichern von Webseiten, Oder: Warum die einfache Lösung manchmal die beste ist"
 date: 2023-03-04T18:19:51+02:00
 draft: false
 ---
@@ -43,3 +43,5 @@ Die zusätzlichen Flags sind `--recursive`, `--no-clobber`, `--page-requisites`,
 Das Ergebnis ist dann ein Ordner (hier ein Auszug des Unterordners des eigentlich Kurses 485 - der Befehl hat deutlich mehr heruntergeladen!) mit den statischen Dateien wie Stylesheets und Bildern und eben den dazugehörigen HTML-Dateien mitsamt den Inhalten.
 
 ![Screenshot des wget-Downloadergebnisses](/img/wget_ergebnis.jpg)
+
+Das ist ein absolut ausreichendes Ergebnis und spricht für die Qualität und den Nutzen der Standard-GNU-Werkzeuge. Mein erster Gedanke bei der Problemlösung ist häufig: Gibt es irgendeine Software, am besten selbstgehosted, die das Problem löst? Manchmal reicht aber auch eine simpler Terminal-Befehl.
